@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7184937609602228762}
-  - component: {fileID: 1634999351915613302}
   - component: {fileID: 3007426112758849154}
+  - component: {fileID: 1750832306275602528}
   m_Layer: 0
   m_Name: HelpSystem
   m_TagString: Untagged
@@ -33,41 +33,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1634999351915613302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8386940133458076046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7e5fa1074ed84e4194da17234f4b502, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TutorialSystem
-  helpMenu: {fileID: 0}
-  helpText: {fileID: 0}
-  messages:
-  - "<b>Binary Table</b>\\n\\n1\\t\t0001\\n\\n 2\\t\t0010\\n\\n 3\\t\t0011\\n\\n
-    4\\t\t0100\\n\\n 5\\t\t0101\\n\\n 6\\t\t0110\\n\\n 7\\t\t0111\\n\\n 8\\t\t1000\\n\\n
-    9\\t\t1001\\n"
-  - '<b>Binary Addition Rules</b>\n\n   Binary addition follows only 4 rules:\n\n 
-    Add   \t Result \n\n  0 + 0 \t 0      \n  0 + 1 \t 1      \n  1 + 0 \t 1     
-    \n   1 + 1 \t 10     \n\n   <b>Example 01</b>\n\n     001\n  + 010\n  -----\n   
-    011\n\n   <b>Example 02</b>\n\n    001\n + 001\n -----\n   010\n '
-  - <b>Movement and Interactions</b>\n \nPress<color=green> W</color> to Move Forward\n\n
-    Press<color=green> A</color> to Move Left\n\n Press<color=green> S</color> to
-    Move Back\n\n Press<color=green> D</color> to Move Right\n\n Use <color=green>F
-    </color> key to interact with objects.
-  - <b>Quick Debugs</b>\n\n If game freezes use <color=green>Left Alt </color> key
-    to unfreeze.\n\n You can only use mouse to input password and you can close the
-    lock by clicking on <color=green>CLOSE</color> text.\n
-  - <b>Game Info</b>\n\n This game will set <color=green>Graphics</color> automatically
-    based on hardware specifications.\n\n Developed by \n<color=red>Dheeraj</color>
-  SlideSFX: {fileID: 8300000, guid: 09f479accf352824589f90e91d34739f, type: 3}
-  helpMenuAnimator: {fileID: 0}
-  openAnimationName: Open
-  closeAnimationName: Close
 --- !u!82 &3007426112758849154
 AudioSource:
   m_ObjectHideFlags: 0
@@ -165,3 +130,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1750832306275602528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8386940133458076046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45418249620d08046a36a51fcc7a5d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HelpSystem
+  storyManager: {fileID: 0}
+  helpMenu: {fileID: 0}
+  helpText: {fileID: 0}
+  messages:
+  - <color=green>Binary Table</color>\n\n\n 1\t0001\n 2\t0010\n 3\t0011\n 4\t0100\n
+    5\t0101\n 6\t0110\n 7\t0111\n 8\t1000\n 9\t1001
+  - '<color=green>Binary Addition Rules</color>\n\n  ADD\tResult\n 0 + 0\t0\n 0 +
+    1\t1\n 1 + 0\t1\n 1 + 1\t\t10\n\n\n  Example \n\n 001 \n + 010\n -----\n 011
+    \n '
+  - 'Movement Controls\n\n\n Press <color=green>W</color> Key to move forward\n\n
+    Press <color=green>A</color> Key to move left\n\n  Press <color=green>S</color>
+    Key to move backward\n\n Press <color=green>D</color> Key to move right\n\n '
+  - Issues\n\n\n You can contact me on my GitHub page or itch.io page.
+  - Info\n\n\n This game is developed by <color=green>Dheeraj Vishwakarma</color>.
+  SlideSFX: {fileID: 8300000, guid: 09f479accf352824589f90e91d34739f, type: 3}
+  helpMenuAnimator: {fileID: 0}
+  openAnimationName: Open
+  closeAnimationName: Close

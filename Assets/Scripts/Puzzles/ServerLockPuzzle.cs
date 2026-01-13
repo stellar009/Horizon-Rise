@@ -150,7 +150,7 @@ public class ServerLockPuzzle : MonoBehaviour
     {
         loadingPanel.SetActive(true);
 
-        AsyncOperation operation = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        AsyncOperation operation = SceneManager.LoadSceneAsync("Core");
         operation.allowSceneActivation = false;
 
         while (!operation.isDone)

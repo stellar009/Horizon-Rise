@@ -30,6 +30,11 @@ public class GameManager : MonoBehaviour
         playerInputActions = new PlayerInputActions();
         moveInput = Vector2.zero;
         lookInput = Vector2.zero;
+
+        if(!help)
+        {
+            Debug.Log("Help system not found");
+        }
     }
 
     private void Start()
