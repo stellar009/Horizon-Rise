@@ -299,7 +299,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b34a78a46c2cfef4db9194a7c7ec0e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneHandler
-  bootupGraphicSystem: {fileID: 1270832174}
   firstScene: {fileID: 1732313153}
   secondScene: {fileID: 1537496156}
   thirdScene: {fileID: 225536736}
@@ -1675,7 +1674,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da19ae13efe42e45a509f336f2911b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BootupGraphicSystem
-  sceneToLoad: 
 --- !u!4 &1270832175
 Transform:
   m_ObjectHideFlags: 0

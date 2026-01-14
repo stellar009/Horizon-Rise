@@ -9,8 +9,6 @@ public class BootupGraphicSystem : MonoBehaviour
     Camera mainCamera;
     UniversalAdditionalCameraData mainCameraData;
 
-    [HideInInspector] public string sceneToLoad = "Lab_Lowest";
-
     private void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
@@ -28,7 +26,7 @@ public class BootupGraphicSystem : MonoBehaviour
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
-    
+
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         ApplySettings();
@@ -46,41 +44,41 @@ public class BootupGraphicSystem : MonoBehaviour
 
     void GraphicsSetup(string gpuName)
     {
-        if(gpuName.Contains("intel")) //Lowest
+        if (gpuName.Contains("intel")) //Lowest
         {
             SetLowestGraphics();
-            sceneToLoad = "Lab_Lowest";
+            DisableEmission();
         }
-        else if(gpuName.Contains("nvidia"))
+        else if (gpuName.Contains("nvidia"))
         {
             mainCameraData.antialiasing = AntialiasingMode.None;
             mainCameraData.renderPostProcessing = true;
 
-            if(virtualRamSize > 4096) //Highest
+            if (virtualRamSize > 4096) //Highest
             {
                 SetHighestGraphics();
-                sceneToLoad = "Lab_Highest";
+                EnableEmission();
             }
-            else if(virtualRamSize > 2048) //High
+            else if (virtualRamSize > 2048) //High
             {
                 SetHighGraphics();
-                sceneToLoad = "Lab_High";
+                EnableEmission();
             }
-            else if(virtualRamSize > 1024) //Medium
+            else if (virtualRamSize > 1024) //Medium
             {
                 SetMediumGraphics();
-                sceneToLoad = "Lab_Mid";
+                EnableEmission();
             }
             else //Low
             {
                 SetLowGraphics();
-                sceneToLoad = "Lab_Low";
+                DisableEmission();
             }
         }
         else //Fallback and AMD graphics
         {
             SetLowGraphics();
-            sceneToLoad = "Lab_Low";
+            DisableEmission();
         }
     }
 
@@ -106,13 +104,13 @@ public class BootupGraphicSystem : MonoBehaviour
         QualitySettings.SetQualityLevel(2);
         QualitySettings.antiAliasing = 0;
         mainCameraData.antialiasing = AntialiasingMode.SubpixelMorphologicalAntiAliasing;
-        mainCameraData.antialiasingQuality = AntialiasingQuality.Medium;
+        mainCameraData.antialiasingQuality = AntialiasingQuality.High;
         QualitySettings.anisotropicFiltering = AnisotropicFiltering.Disable;
     }
 
     void SetLowGraphics()
     {
-        Application.targetFrameRate = 24;
+        Application.targetFrameRate = 30;
         QualitySettings.SetQualityLevel(1);
         QualitySettings.antiAliasing = 0;
         mainCameraData.antialiasing = AntialiasingMode.SubpixelMorphologicalAntiAliasing;
@@ -127,5 +125,15 @@ public class BootupGraphicSystem : MonoBehaviour
         mainCameraData.antialiasing = AntialiasingMode.None;
         mainCameraData.renderPostProcessing = false;
         QualitySettings.anisotropicFiltering = AnisotropicFiltering.Disable;
+    }
+
+    void EnableEmission()
+    {
+        Shader.EnableKeyword("_EMISSION");
+    }
+
+    void DisableEmission()
+    {
+        Shader.DisableKeyword("_EMISSION");
     }
 }

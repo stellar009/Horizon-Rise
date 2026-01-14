@@ -29,7 +29,7 @@ public class StoryManager : MonoBehaviour
 
     public void EnableUIElements()
     {
-        for(int i = 0; i < otherUIElements.Length; i++)
+        for (int i = 0; i < otherUIElements.Length; i++)
         {
             otherUIElements[i].SetActive(true);
         }
@@ -37,7 +37,7 @@ public class StoryManager : MonoBehaviour
 
     public void DIsableUIElements()
     {
-        for (int i = 0;i < otherUIElements.Length;i++)
+        for (int i = 0; i < otherUIElements.Length; i++)
         {
             otherUIElements[i].SetActive(false);
         }

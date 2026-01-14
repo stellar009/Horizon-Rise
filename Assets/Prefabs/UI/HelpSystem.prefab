@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7184937609602228762}
   - component: {fileID: 3007426112758849154}
-  - component: {fileID: 1750832306275602528}
+  - component: {fileID: 7662734219001793126}
   m_Layer: 0
   m_Name: HelpSystem
   m_TagString: Untagged
@@ -130,7 +130,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1750832306275602528
+--- !u!114 &7662734219001793126
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,23 +139,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 8386940133458076046}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45418249620d08046a36a51fcc7a5d27, type: 3}
+  m_Script: {fileID: 11500000, guid: 30efd670773b23844b9e4773a2a541aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HelpSystem
   storyManager: {fileID: 0}
   helpMenu: {fileID: 0}
   helpText: {fileID: 0}
   messages:
-  - <color=green>Binary Table</color>\n\n\n 1\t0001\n 2\t0010\n 3\t0011\n 4\t0100\n
-    5\t0101\n 6\t0110\n 7\t0111\n 8\t1000\n 9\t1001
+  - ' Decimal \t Binary \n\n\n         1 \t\t 0001   \n        2 \t\t 0010   \n       
+    3 \t\t 0011   \n        4 \t\t 0100   \n        5 \t\t 0101   \n        6 \t\t
+    0110   \n        7 \t\t 0111   \n        8 \t\t 1000   \n        9 \t\t 1001  
+    \n'
   - '<color=green>Binary Addition Rules</color>\n\n  ADD\tResult\n 0 + 0\t0\n 0 +
     1\t1\n 1 + 0\t1\n 1 + 1\t\t10\n\n\n  Example \n\n 001 \n + 010\n -----\n 011
     \n '
-  - 'Movement Controls\n\n\n Press <color=green>W</color> Key to move forward\n\n
-    Press <color=green>A</color> Key to move left\n\n  Press <color=green>S</color>
-    Key to move backward\n\n Press <color=green>D</color> Key to move right\n\n '
-  - Issues\n\n\n You can contact me on my GitHub page or itch.io page.
-  - Info\n\n\n This game is developed by <color=green>Dheeraj Vishwakarma</color>.
+  - Movement Controls\n\n Press <color=green>W</color> Key to move Forward\n\n Press
+    <color=green>A</color> Key to move Left\n\n Press <color=green>S</color> Key
+    to move Backward\n\n Press <color=green>D</color> Key to move Right\n\n
+  - Quick Debugs\n\n If the Lock doesnot close automatically use <color=green>Left
+    ALT</color> to activate cursor and close the lock\n\n Use <color=green>Tab</color>
+    to get help for binary tables
+  - About\n\n This game is developed by Dheeraj Vishwakarma.
   SlideSFX: {fileID: 8300000, guid: 09f479accf352824589f90e91d34739f, type: 3}
   helpMenuAnimator: {fileID: 0}
   openAnimationName: Open

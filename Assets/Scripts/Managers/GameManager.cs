@@ -33,13 +33,14 @@ public class GameManager : MonoBehaviour
 
         if(!help)
         {
-            Debug.Log("Help system not found");
+            Debug.Log("Help not found");
         }
     }
 
     private void Start()
     {
         ActivateCursor(currentCursorState);
+        DisableCameraAndMovementControls();
         gamePauseStatus = false;
         UpdateCameraControls();
     }

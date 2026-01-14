@@ -11,6 +11,7 @@ public class HelpSystem : MonoBehaviour
     [Header("Help Menu Settings")]
     public GameObject helpMenu;
     public TextMeshProUGUI helpText;
+    [Tooltip("The sequence is started from Element 0 which shows Binary Table and so on")]
     public string[] messages;
 
     [Header("SFX Settings")]
@@ -29,6 +30,10 @@ public class HelpSystem : MonoBehaviour
     private void Start()
     {
         helpMenu.SetActive(false);
+        if (!storyManager)
+        {
+            GameManager.instance.playerInputActions.Player.HelpMenu.Disable();
+        }
     }
 
     public void OpenHelpMenu()
