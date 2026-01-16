@@ -44,41 +44,35 @@ public class BootupGraphicSystem : MonoBehaviour
 
     void GraphicsSetup(string gpuName)
     {
+        mainCameraData.antialiasing = AntialiasingMode.None;
+        mainCameraData.renderPostProcessing = true;
+
         if (gpuName.Contains("intel")) //Lowest
         {
             SetLowestGraphics();
-            DisableEmission();
         }
         else if (gpuName.Contains("nvidia"))
         {
-            mainCameraData.antialiasing = AntialiasingMode.None;
-            mainCameraData.renderPostProcessing = true;
-
             if (virtualRamSize > 4096) //Highest
             {
                 SetHighestGraphics();
-                EnableEmission();
             }
             else if (virtualRamSize > 2048) //High
             {
                 SetHighGraphics();
-                EnableEmission();
             }
             else if (virtualRamSize > 1024) //Medium
             {
                 SetMediumGraphics();
-                EnableEmission();
             }
             else //Low
             {
                 SetLowGraphics();
-                DisableEmission();
             }
         }
         else //Fallback and AMD graphics
         {
-            SetLowGraphics();
-            DisableEmission();
+            SetMediumGraphics();
         }
     }
 
@@ -88,6 +82,7 @@ public class BootupGraphicSystem : MonoBehaviour
         QualitySettings.SetQualityLevel(4);
         QualitySettings.antiAliasing = 4;
         QualitySettings.anisotropicFiltering = AnisotropicFiltering.ForceEnable;
+        EnableEmission();
     }
 
     void SetHighGraphics()
@@ -96,6 +91,7 @@ public class BootupGraphicSystem : MonoBehaviour
         QualitySettings.SetQualityLevel(3);
         QualitySettings.antiAliasing = 2;
         QualitySettings.anisotropicFiltering = AnisotropicFiltering.Enable;
+        EnableEmission();
     }
 
     void SetMediumGraphics()
@@ -106,6 +102,7 @@ public class BootupGraphicSystem : MonoBehaviour
         mainCameraData.antialiasing = AntialiasingMode.SubpixelMorphologicalAntiAliasing;
         mainCameraData.antialiasingQuality = AntialiasingQuality.High;
         QualitySettings.anisotropicFiltering = AnisotropicFiltering.Disable;
+        EnableEmission();
     }
 
     void SetLowGraphics()
@@ -116,6 +113,7 @@ public class BootupGraphicSystem : MonoBehaviour
         mainCameraData.antialiasing = AntialiasingMode.SubpixelMorphologicalAntiAliasing;
         mainCameraData.antialiasingQuality = AntialiasingQuality.Low;
         QualitySettings.anisotropicFiltering = AnisotropicFiltering.Disable;
+        DisableEmission();
     }
 
     void SetLowestGraphics()
@@ -125,6 +123,7 @@ public class BootupGraphicSystem : MonoBehaviour
         mainCameraData.antialiasing = AntialiasingMode.None;
         mainCameraData.renderPostProcessing = false;
         QualitySettings.anisotropicFiltering = AnisotropicFiltering.Disable;
+        DisableEmission();
     }
 
     void EnableEmission()
