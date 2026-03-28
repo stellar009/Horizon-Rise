@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C290AA-66C9-2036-BD1D-4203A9806B1B}|Assembly-CSharp.csproj|d:\\college project\\backup v1.4z7\\horizon rise\\assets\\scripts\\tutorials\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C290AA-66C9-2036-BD1D-4203A9806B1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorials\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C290AA-66C9-2036-BD1D-4203A9806B1B}|Assembly-CSharp.csproj|d:\\college project\\backup v1.4z7\\horizon rise\\assets\\scripts\\story\\story manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C290AA-66C9-2036-BD1D-4203A9806B1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\story\\story manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C290AA-66C9-2036-BD1D-4203A9806B1B}|Assembly-CSharp.csproj|D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C290AA-66C9-2036-BD1D-4203A9806B1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C290AA-66C9-2036-BD1D-4203A9806B1B}|Assembly-CSharp.csproj|D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\assets\\scripts\\tutorials\\helpsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C290AA-66C9-2036-BD1D-4203A9806B1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorials\\helpsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C290AA-66C9-2036-BD1D-4203A9806B1B}|Assembly-CSharp.csproj|D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\assets\\scripts\\puzzles\\serverlockpuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C290AA-66C9-2036-BD1D-4203A9806B1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzles\\serverlockpuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C290AA-66C9-2036-BD1D-4203A9806B1B}|Assembly-CSharp.csproj|D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\assets\\scripts\\ui enhancements world\\graphics_name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C290AA-66C9-2036-BD1D-4203A9806B1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui enhancements world\\graphics_name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TutorialManager.cs",
+              "DocumentMoniker": "D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\Assets\\Scripts\\Tutorials\\TutorialManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorials\\TutorialManager.cs",
+              "ToolTip": "D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\Assets\\Scripts\\Tutorials\\TutorialManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorials\\TutorialManager.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAwwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T03:25:33.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Story Manager.cs",
+              "DocumentMoniker": "D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\Assets\\Scripts\\Story\\Story Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Story\\Story Manager.cs",
+              "ToolTip": "D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\Assets\\Scripts\\Story\\Story Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Story\\Story Manager.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T16:00:42.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HelpSystem.cs",
+              "DocumentMoniker": "D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\Assets\\Scripts\\Tutorials\\HelpSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorials\\HelpSystem.cs",
+              "ToolTip": "D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\Assets\\Scripts\\Tutorials\\HelpSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorials\\HelpSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T15:56:53.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ToolTip": "D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAA0wAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T15:52:13.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServerLockPuzzle.cs",
+              "DocumentMoniker": "D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\Assets\\Scripts\\Puzzles\\ServerLockPuzzle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Puzzles\\ServerLockPuzzle.cs",
+              "ToolTip": "D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\Assets\\Scripts\\Puzzles\\ServerLockPuzzle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Puzzles\\ServerLockPuzzle.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T15:51:15.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Graphics_Name.cs",
+              "DocumentMoniker": "D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\Assets\\Scripts\\UI Enhancements World\\Graphics_Name.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI Enhancements World\\Graphics_Name.cs",
+              "ToolTip": "D:\\College Project\\Backup v1.4Z7\\Horizon Rise\\Assets\\Scripts\\UI Enhancements World\\Graphics_Name.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI Enhancements World\\Graphics_Name.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T15:49:07.581Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

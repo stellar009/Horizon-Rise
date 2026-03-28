@@ -189,6 +189,74 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Tutorials",
+            "id": "5eba5a88-e3e7-461a-859d-15140f22ee03",
+            "actions": [
+                {
+                    "name": "Next",
+                    "type": "Button",
+                    "id": "118bbf2a-186c-4ef1-8bcb-02fb84f7414b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Previous",
+                    "type": "Button",
+                    "id": "951ee066-cb1a-45dd-8214-34f8628088e1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Open",
+                    "type": "Button",
+                    "id": "68d04d66-5fef-499b-8d33-58549e3cac8d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "af353ab8-1d5a-4ef9-aaab-b5c99d525a8a",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d920df0a-9898-45f2-9b27-239ba9c47243",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Previous",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ff4d42ff-fd26-496d-90c0-a83a29bf277b",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

@@ -4,6 +4,7 @@ public class StoryManager : MonoBehaviour
 {
     public GameObject storyBoard;
     public GameObject info;
+    public GameObject tutorials;
 
     public GameObject[] otherUIElements;
 
@@ -50,9 +51,20 @@ public class StoryManager : MonoBehaviour
 
     public void CloseInfo()
     {
+        info.SetActive(false);
+        OpenTutorial();
+    }
+
+    void OpenTutorial()
+    {
+        tutorials.SetActive(true);
+    }
+
+    public void CloseTutorial()
+    {
+        tutorials.SetActive(false);
+        EnableUIElements();
         GameManager.instance.EnableCameraAndMovementControls();
         GameManager.instance.ActivateCursor(false);
-        info.SetActive(false);
-        EnableUIElements();
     }
 }
