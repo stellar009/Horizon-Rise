@@ -48,3 +48,5 @@ Enjoy the game 🎮
 4. Focus on stable frame rates and low latency
 
 Suitable for a wide range of hardware configurations
+
+**Going to update this game with newly learned methods to improve game**
