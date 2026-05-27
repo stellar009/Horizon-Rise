@@ -49,4 +49,4 @@ Enjoy the game 🎮
 
 Suitable for a wide range of hardware configurations
 
-**Going to update this game with newly learned methods to improve game**
+**Going to update this game with newly learned methods to improve overall game quality and feel**
