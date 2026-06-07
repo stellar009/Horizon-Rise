@@ -24,6 +24,8 @@ Enjoy the game 🎮
 2. Adjusts graphics quality and frame rate for optimal performance
 3. Ensures smooth gameplay across low-end to high-end systems
 
+
+Chances of increasing in graphic quality and addition of new effects to improve gameplay immersion.
 **🚀 Background Scene Loading**
 
 1. All scenes are loaded in the background
