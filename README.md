@@ -52,3 +52,4 @@ Chances of increasing in graphic quality and addition of new effects to improve 
 Suitable for a wide range of hardware configurations
 
 **Going to update this game with newly learned methods to improve overall game quality and feel**
+**In next update some of the devices doesnot support the game**
