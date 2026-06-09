@@ -25,7 +25,6 @@ Enjoy the game 🎮
 3. Ensures smooth gameplay across low-end to high-end systems
 
 
-Chances of increasing in graphic quality and addition of new effects to improve gameplay immersion.
 **🚀 Background Scene Loading**
 
 1. All scenes are loaded in the background
@@ -34,7 +33,7 @@ Chances of increasing in graphic quality and addition of new effects to improve 
 
 **⚡ Performance-Oriented Design**
 
-1. Highly optimized for Windows PCs and laptops
+1. Optimized for Windows PCs and laptops
 
 **🛠️ Built With**
 
@@ -49,7 +48,6 @@ Chances of increasing in graphic quality and addition of new effects to improve 
 3. Demonstration of real-world Unity optimization techniques
 4. Focus on stable frame rates and low latency
 
-Suitable for a wide range of hardware configurations
 
 **Going to update this game with newly learned methods to improve overall game quality and feel**
 **In next update some of the devices doesnot support the game**
