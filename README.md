@@ -55,4 +55,4 @@ Enjoy the game 🎮
 
 
 
-**Expected date: 20/05.2027**
+**Expected date: 20/05/2027**
