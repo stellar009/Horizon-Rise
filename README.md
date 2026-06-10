@@ -51,3 +51,8 @@ Enjoy the game 🎮
 
 **Going to update this game with newly learned methods to improve overall game quality and feel**
 **In next update some of the devices doesnot support the game**
+
+
+
+
+**Expected date: 20/05.2027**
