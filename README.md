@@ -14,9 +14,6 @@
 
 ## Screenshots
 
-<p align="center">
-  <em>Gameplay screenshots and GIFs will be added here.</em>
-</p>
 
 <img width="794" height="445" alt="bk2A7L" src="https://github.com/user-attachments/assets/8a66fe2a-21fb-4ecc-af29-f8799931920a" />
 <img width="794" height="443" alt="yIBIRZ" src="https://github.com/user-attachments/assets/d2f6f9d0-985f-4752-8c3b-a504f0773626" />
