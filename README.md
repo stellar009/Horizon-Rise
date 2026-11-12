@@ -18,7 +18,11 @@
   <em>Gameplay screenshots and GIFs will be added here.</em>
 </p>
 
-> Replace this section with in-game captures once available. Recommended format: a 1280×720 PNG or a short MP4/GIF loop showing the auto-graphics detection and a transition between scenes.
+<img width="794" height="445" alt="bk2A7L" src="https://github.com/user-attachments/assets/8a66fe2a-21fb-4ecc-af29-f8799931920a" />
+<img width="794" height="443" alt="yIBIRZ" src="https://github.com/user-attachments/assets/d2f6f9d0-985f-4752-8c3b-a504f0773626" />
+<img width="794" height="443" alt="_cSe3U" src="https://github.com/user-attachments/assets/2b8cd449-1a1b-40f8-b9ec-6652776b76b9" />
+<img width="794" height="444" alt="rc4rXK" src="https://github.com/user-attachments/assets/c145c573-7f88-441a-8b88-a4ad0ead11b9" />
+
 
 ---
 
