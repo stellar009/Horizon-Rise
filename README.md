@@ -133,4 +133,12 @@ GitHub: [@stellar009](https://github.com/stellar009) · Repository: [Horizon-Ris
 
 ---
 
+## Stability — Fixing VRAM-Exhaustion Crashes
+During early testing, low-end devices (especially Intel integrated GPUs) crashed because the game used too much VRAM. I found the cause using [crash logs / Profiler memory module]. The problem was duplicate materials and per-object material instances using too much memory. 
+**The fix was two steps:** 
+1. I rebuilt the whole material library to remove duplicates.
+2.  I enabled GPU instancing to lower per-object memory cost. I then verified the fix on ~10 hardware configurations, from Intel UHD integrated graphics to high-end discrete GPUs. Bug fixes continue based on user reports and are released in versions 1.4Z5 to 1.5Z1.
+
+---
+
 > *Horizon Rise — built to scale, engineered to perform.*
